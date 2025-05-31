@@ -1,0 +1,15 @@
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Archivos temporales de VS Code
+.vscode/
+*.code-workspace
+
+# Archivos de entorno o config local
+.env
+*.log
+
+# Archivos temporales o de caché
+*.cache
+*.tmp
