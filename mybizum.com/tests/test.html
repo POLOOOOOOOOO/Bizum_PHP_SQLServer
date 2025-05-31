@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Enviar Bizum Blockchain</title>
+</head>
+<body>
+    <h1>Simulación de Bizum con Blockchain</h1>
+    <form action="main2.php" method="GET">
+    <label for="from">Remitente:</label>
+    <input type="text" name="from" id="from" required placeholder="Ej. Alice">
+
+    <label for="to">Receptor:</label>
+    <input type="text" name="to" id="to" required placeholder="Ej. Bob">
+
+    <label for="amount">Cantidad (€):</label>
+    <input type="number" name="amount" id="amount" step="0.01">
+
+    <button type="submit">Enviar</button>
+</form>
+</body>
+</html>

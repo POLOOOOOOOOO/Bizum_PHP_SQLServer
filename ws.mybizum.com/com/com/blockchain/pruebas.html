@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Test Bizum</title>
+    <link rel="stylesheet" href="../css/main.css" />
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="../index.html" class="logo">NeoBank</a>
+            <div class="nav-links">
+                <a href="../index.html" class="primary-button">Inicio</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="auth-container">
+        <div class="auth-card">
+            <h2>Enviar Bizum</h2>
+            
+            <form class="auth-form" method="GET" action="main2.php">
+                <input type="hidden" name="action" value="sendbizum">
+
+                <div class="form-group">
+                    <label>Remitente (Username)</label>
+                    <div class="input-with-icon">
+                        <input type="text" name="from" placeholder="Tu usuario" required>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label>Receptor (Username)</label>
+                    <div class="input-with-icon">
+                        <input type="text" name="to" placeholder="Usuario receptor" required>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label>Cantidad (€)</label>
+                    <div class="input-with-icon">
+                        <input type="number" step="0.01" min="0" name="amount" placeholder="Cantidad a enviar" required>
+                    </div>
+                </div>
+
+                <button type="submit" class="auth-button">Enviar Bizum</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - NeoBank</title>
+    <link rel="stylesheet" href="../css/main.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="../js/main.js"></script>
+    <script src="../js/login.js"></script>
+
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="../index.html" class="logo">
+                <span>NeoBank</span>
+            </a>
+            <div class="nav-links">
+                <a href="./register.html">Crear cuenta</a>
+                <a href="../index.html" class="primary-button">Vuelve al inicio</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="auth-container">
+        <div class="auth-card">
+            <h2>Welcome Back</h2>
+            <form class="auth-form" id="login-form">
+                <div class="form-group">
+                    <label>Username</label>
+                    <div class="input-with-icon">
+                        <input type="text" id="username" placeholder="Enter your username" value="testeo" required>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label>Password</label>
+                    <div class="input-with-icon">
+                        <input type="password" id="password" placeholder="Enter your password" value="Ron.123456"
+                            required>
+                    </div>
+                </div>
+
+                <button type="submit" class="auth-button">Sign In</button>
+            </form>
+
+
+
+            <p class="auth-footer">
+                ¿No tienes cuenta? <a href="./register.html">Regístrate</a>
+            </p>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,25 @@
+<ws_response>
+  <head>
+    <server_id>a34df352a179</server_id>
+    <server_time>2025-05-25T10:11:21.532</server_time>
+    <execution_time/>
+    <url/>
+    <webmethod>
+      <name/>
+      <parameters/>
+    </webmethod>
+    <errors>
+      <error>
+        <num_error>0</num_error>
+        <message_error>Ok</message_error>
+        <severity/>
+        <user_message>Ok</user_message>
+      </error>
+    </errors>
+  </head>
+  <body>
+    <response_data>
+      <SSID>4B4FA779-8B66-410B-BE84-AE17B642ADC0</SSID>
+    </response_data>
+  </body>
+</ws_response>

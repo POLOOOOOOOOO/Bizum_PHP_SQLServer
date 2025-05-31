@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>NeoBank - Dashboard</title>
+  <link rel="stylesheet" href="../css/main.css" />
+</head>
+
+<body>
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="../index.html" class="logo">NeoBank</a>
+      <div class="nav-links">
+        <button id="logout-btn" class="primary-button">Cerrar sesión</button>
+      </div>
+    </div>
+  </nav>
+
+  <div class="auth-container" style="flex-direction: column; gap: 2rem;">
+
+    <!-- Info de usuario -->
+    <div class="auth-card">
+      <h2 id="userWelcome">Bienvenido a tu cuenta</h2>
+      <h2 id="saldoActual">Cargando saldo...</h2>
+      <p>Aquí puedes hacer tus movimientos, enviar dinero, etc.</p>
+    </div>
+
+    <!-- Enviar Bizum -->
+    <div class="auth-card">
+      <h2>Enviar Bizum</h2>
+      <form class="auth-form" id="bizumForm">
+
+        <div class="form-group">
+          <label for="to">Receptor</label>
+          <div class="input-with-icon">
+            <input type="text" name="to" id="to" placeholder="Usuario receptor" required />
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="amount">Cantidad (€)</label>
+          <div class="input-with-icon">
+            <input type="number" name="amount" placeholder="Cantidad a enviar" step="0.01" required />
+          </div>
+        </div>
+
+        <button type="submit" class="auth-button">Enviar</button>
+      </form>
+
+      <div id="bizumResult" style="margin-top: 1rem;"></div>
+    </div>
+
+    <!-- Agenda de usuarios -->
+    <div class="auth-card">
+      <h2>Agenda de contactos</h2>
+      <div id="agendaUsuarios">
+        <!-- Se rellenará dinámicamente por JavaScript -->
+      </div>
+    </div>
+  </div>
+
+  <script src="../js/dashboard.js"></script>
+  <script src="../js/clsAjax.js"></script>
+  <script src="../js/login.js"></script>
+</body>
+
+</html>

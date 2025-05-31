@@ -1,0 +1,34 @@
+
+
+// Register: OK
+// localhost:40080/gen-web/gen-web/PHP/index.php?action=register&username=polrabascall&name=Pol&lastname=Rabascall&password=Test12345!!&email=polrabascall@gmail.com&gender=Hombre&def_lang=es
+// http://localhost:40080/gen-web/PHP/index.php?action=register&username=PauAllendee&name=Pau&lastname=Allende&password=C0ntraseña2004!!&email=pauallendeherraiz@gmail.com&gender=Hombre&def_lang=es
+//?action=register&username=aribas&name=Alex&lastname=Rab&password=Test12345!!&email=aribas@gmail.com
+// NUEVA URL
+// http://localhost:40080/gen-web/PHP/index.php?action=register&username=aribas&name=Alex&lastname=Rab&password=Test12345!!&email=aribas@gmail.com&gender=Hombre&def_lang=es
+
+
+// Account Validate: OK
+// http://localhost:40080/gen-web/gen-web/PHP/index.php?action=accvalidate&username=polrabascall&code=
+// http://localhost:40080/gen-web/PHP/index.php?action=accvalidate&username=PauAllendee&code=40381
+
+// Login: OK
+// localhost:40080/gen-web/gen-web/PHP/index.php?action=login&username=polrabascall&password=Test12345!!
+// http://localhost:40080/gen-web/PHP/index.php?action=login&username=PauAllendee&password=C0ntraseña2004!!
+
+
+// Logout: OK
+// localhost:40080/gen-web/gen-web/PHP/index.php?action=logout
+// http://localhost:40080/gen-web/PHP/index.php?action=logout
+
+// Change Password: OK
+// localhost:40080/gen-web/gen-web/PHP/index.php?action=changepass&username=polrabascall&password=Test12345!!&newpassword=NewPassword12345!!
+// http://localhost:40080/gen-web/PHP/index.php?action=changepass&username=PauAllendee&password=C0ntraseña2004!!&newpassword=NewPassword12345!!
+
+// View Active Connections: OK
+// localhost:40080/gen-web/gen-web/PHP/index.php?action=viewcon
+// http://localhost:40080/gen-web/PHP/index.php?action=viewcon
+
+// View Historical Connections: OK
+//localhost:40080/gen-web/gen-web/PHP/index.php?action=viewconhist
+// http://localhost:40080/gen-web/PHP/index.php?action=viewconhist

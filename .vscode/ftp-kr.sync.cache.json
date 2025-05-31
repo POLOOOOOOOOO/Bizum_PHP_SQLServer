@@ -1,0 +1,12 @@
+{
+  "ftp://polo@localhost:21": {
+    "html": {},
+    "mybizum.com": {},
+    "mychain.com": {},
+    "ws.mybizum.com": {},
+    "var": {
+      "www": {}
+    }
+  },
+  "$version": 1
+}
